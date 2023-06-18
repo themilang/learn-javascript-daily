@@ -25,3 +25,11 @@ console.log(x<y);
 console.log( " the value ", x===34 && x>10); //and
 console.log(" value " , x===y || x>y ) //or
 
+//ternary oprator
+/* {
+     is a short alternative of if else
+
+     condition ? statement 1 : statement 2;
+
+
+    }*/
