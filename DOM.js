@@ -32,3 +32,21 @@ console.log(document.querySelectorAll('.container'));
 
 //acessing element
 document.getElementById('container').innerHTML=`<h1>container22</h1>`
+const variable='con'
+document.getElementById('container').innerHTML=`<h1>${variable}</h1>`
+container=document.getElementById('container')
+container.innerHTML=`class 2 is good`
+
+// classcontainer=document.getElementsByClassName('container1')
+// classcontainer.innerHTML=`class 2 conta`
+
+const paragraph=document.createElement('p');
+paragraph.className='container';
+paragraph.innerHTML=`We are from the javascript`
+paragraph.style.backgroundColor='red'
+
+spantag=document.createElement('span')
+spantag.innerHTML= 'this a span tag'
+paragraph.append(spantag)
+console.log(paragraph)
+container.append(paragraph);
